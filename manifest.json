@@ -1,0 +1,28 @@
+{
+    "name": "Change your background page colour!",
+    "description": "My first extension.!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "palette16.png",
+        "32": "palette32.png",
+        "48": "palette48.png",
+        "128": "palette128.png"
+      }
+    },
+  
+    "icons": {
+      "16": "palette16.png",
+      "32": "palette32.png",
+      "48": "palette48.png",
+      "128": "palette128.png"
+    },
+    "options_page": "options.html"
+  
+  }
